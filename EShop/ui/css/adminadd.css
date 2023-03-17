@@ -1,0 +1,41 @@
+﻿.box {
+    height: 70vh;
+    width: 40%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    border-color: aqua;
+    background-color: aliceblue;
+}
+
+.textbox {
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    color: rebeccapurple;
+}
+
+.label {
+    padding: 10px 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: darkslategray;
+}
+
+.btn {
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-content: center;
+    width: 100px;
+    background-color: cornflowerblue;
+    color: yellow;
+    padding: 5px;
+}

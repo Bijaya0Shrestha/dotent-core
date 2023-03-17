@@ -1,0 +1,216 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu-wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 85%;
+    margin: 0 auto;
+    background-image: url('/Image/img.jpg');
+    background-position: center;
+}
+
+.wrapper1 {
+    padding: 1%;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/background2.jpg);
+    background-position: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl {
+    width: 89%;
+}
+
+.table {
+    width: 30%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1px;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-admin {
+    background-color: #70a1ff;
+}
+
+
+.btn-primary {
+    background-color: #66ec2c;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+    .btn-primary:hover {
+        background-color: #199b12;
+    }
+
+.btn-secondary {
+    background-color: #4e8cca;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+    .btn-secondary:hover {
+        background-color: #4176d8;
+    }
+
+
+.btn-danger {
+    background-color: #e04234;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+    .btn-danger:hover {
+        background-color: #d62212;
+    }
+
+.btn-paw {
+    background-color: #9f9128;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+    .btn-paw:hover {
+        background-color: #75620e;
+    }
+
+.sucess {
+    font-size: large;
+    color: #0e580a
+}
+
+.error {
+    color: #d62212
+}
+
+
+/* css for menu */
+.menu {
+    border-bottom: 1px solid black;
+    background-color: #201e1e;
+}
+
+    .menu ul {
+        list-style: none;
+    }
+
+        .menu ul li {
+            display: inline;
+            padding: 1%
+        }
+
+            .menu ul li a {
+                text-decoration: none;
+                font-weight: normal;
+                color: #b8aec9;
+            }
+
+                .menu ul li a:hover {
+                    color: #cac1dc;
+                    ;
+                }
+
+/* css for main content */
+.main-content {
+    background-color: #dfe4ea;
+    padding: 1%;
+}
+
+.col4 {
+    width: 15%;
+    background-color: #f1f2f6;
+    margin: 0.5%;
+    padding: 1%;
+    float: left;
+}
+
+
+/* css for footer */
+.footer {
+    background-color: #747d8c;
+    color: white;
+}
+
+btn-add {
+    padding:200px;
+    margin:4px;
+    text-decoration:none;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #00ff21;
+    color: white;
+    border: none;
+    border-radius: 13px;
+}
+
+.btn-update {
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #0094ff;
+    color: white;
+    border: none;
+    border-radius: 13px;
+    margin: 0 10px;
+}
+
+.btn-delete {
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    font-size: medium;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 13px;
+}
+
+add-anchord {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    padding: 10px 28px;
+    background-color: green;
+    border-radius: 13px;
+}
